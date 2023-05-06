@@ -42,42 +42,42 @@ export const conicDirections = [
   {
     name: 'Conic Top',
     // css: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]'
-    css: 'bg-conic-to-t'
+    css: 'bg-conic-at-t'
   },
   {
     name: 'Conic Top Right',
     // css: 'bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))]'
-    css: 'bg-conic-to-tr'
+    css: 'bg-conic-at-tr'
   },
   {
     name: 'Conic Right',
     // css: 'bg-[conic-gradient(at_right,_var(--tw-gradient-stops))]'
-    css: 'bg-conic-to-r'
+    css: 'bg-conic-at-r'
   },
   {
     name: 'Conic Bottom Right',
     // css: 'bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))]'
-    css: 'bg-conic-to-br'
+    css: 'bg-conic-at-br'
   },
   {
     name: 'Conic Bottom',
     // css: 'bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))]'
-    css: 'bg-conic-to-b'
+    css: 'bg-conic-at-b'
   },
   {
     name: 'Conic Bottom Left',
     // css: 'bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))]'
-    css: 'bg-conic-to-bl'
+    css: 'bg-conic-at-bl'
   },
   {
     name: 'Conic Left',
     // css: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]'
-    css: 'bg-conic-to-l'
+    css: 'bg-conic-at-l'
   },
   {
     name: 'Conic Top Left',
     // css: 'bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))]'
-    css: 'bg-conic-to-tl'
+    css: 'bg-conic-at-tl'
   }
 ]
 
