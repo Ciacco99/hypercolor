@@ -316,57 +316,68 @@ export const gradientsCore = [
   },
   {
     name: 'Beam of Light',
-    direction: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-t',
     colors: 'from-gray-900 via-gray-100 to-gray-900'
   },
   {
     name: 'Safari Sunset',
-    direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-l',
     colors: 'from-yellow-500 via-purple-500 to-blue-500'
   },
   {
     name: 'High Tide',
-    direction: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-t',
     colors: 'from-sky-500 via-orange-200 to-yellow-600'
   },
   {
     name: 'Hunniepop',
-    direction: 'bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-bl',
     colors: 'from-fuchsia-300 via-green-400 to-rose-700'
   },
   {
     name: 'Soft Metal',
-    direction: 'bg-[conic-gradient(at_right,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_right,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-r',
     colors: 'from-indigo-200 via-slate-600 to-indigo-200'
   },
   {
     name: 'Coral Sun',
-    direction: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-t',
     colors: 'from-yellow-200 via-emerald-200 to-yellow-200'
   },
   {
     name: 'Power Pink',
-    direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-l',
     colors: 'from-rose-500 to-indigo-700'
   },
   {
     name: 'Powder Blue',
-    direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-l',
     colors: 'from-sky-400 to-blue-800'
   },
   {
     name: 'Moody Sunset',
-    direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-l',
     colors: 'from-rose-900 via-amber-800 to-rose-400'
   },
   {
     name: 'Burnt Sand',
-    direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-l',
     colors: 'from-yellow-200 via-red-500 to-fuchsia-500'
   },
   {
     name: 'Blue / White Split',
-    direction: 'bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-b',
     colors: 'from-white via-sky-500 to-sky-500'
   },
   {
@@ -376,7 +387,8 @@ export const gradientsCore = [
   },
   {
     name: 'Sand Beam',
-    direction: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-t',
     colors: 'from-orange-900 via-amber-100 to-orange-900'
   },
   {
@@ -386,8 +398,8 @@ export const gradientsCore = [
   },
   {
     name: 'Big Sur',
-    direction: 'Pastel',
-    colors: 'bg-gradient-to-tr from-violet-500 to-orange-300'
+    direction: 'bg-gradient-to-tr',
+    colors: 'from-violet-500 to-orange-300'
   },
   {
     name: 'Oahu',
@@ -396,7 +408,8 @@ export const gradientsCore = [
   },
   {
     name: 'Peach Pie',
-    direction: 'bg-[conic-gradient(at_right,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[conic-gradient(at_right,_var(--tw-gradient-stops))]',
+    direction: 'bg-conic-at-r',
     colors: 'from-red-900 via-violet-200 to-orange-500'
   },
   {
@@ -407,35 +420,41 @@ export const gradientsCore = [
   {
     name: 'Purple Burst',
     direction:
-      'bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))]',
+      // 'bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))]',
+      'bg-radial',
     colors: 'from-purple-900 to-indigo-500'
   },
   {
     name: 'Amber Sunrise',
     direction:
-      'bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]',
+      // 'bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]',
+      'bg-radial-at-b',
     colors: 'from-amber-900 to-yellow-300'
   },
   {
     name: 'Sky Sea',
     direction:
-      'bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))]',
+      // 'bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))]',
+      'bg-radial-at-r',
     colors: 'from-sky-400 to-indigo-900'
   },
   {
     name: 'Rocket Power',
-    direction: 'bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]',
+    direction: 'bg-radial-at-t',
     colors: 'from-amber-700 via-orange-300 to-rose-800'
   },
   {
     name: 'Blue Flame',
     direction:
-      'bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]',
+      // 'bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]',
+      'bg-radial-at-b',
     colors: 'from-amber-200 via-violet-600 to-sky-900'
   },
   {
     name: 'Warm Glow',
-    direction: 'bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]',
+    // direction: 'bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]',
+    direction: 'bg-radial-at-t',
     colors: 'from-gray-300 via-fuchsia-600 to-orange-600'
   }
 ]

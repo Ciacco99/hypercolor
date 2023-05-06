@@ -36,77 +36,95 @@ export const primaryDirections = [
 export const conicDirections = [
   {
     name: 'Conic Center',
-    css: 'bg-[conic-gradient(var(--tw-gradient-stops))]'
+    // css: 'bg-[conic-gradient(var(--tw-gradient-stops))]'
+    css: 'bg-conic'
   },
   {
     name: 'Conic Top',
-    css: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]'
+    // css: 'bg-[conic-gradient(at_top,_var(--tw-gradient-stops))]'
+    css: 'bg-conic-to-t'
   },
   {
     name: 'Conic Top Right',
-    css: 'bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))]'
+    // css: 'bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))]'
+    css: 'bg-conic-to-tr'
   },
   {
     name: 'Conic Right',
-    css: 'bg-[conic-gradient(at_right,_var(--tw-gradient-stops))]'
+    // css: 'bg-[conic-gradient(at_right,_var(--tw-gradient-stops))]'
+    css: 'bg-conic-to-r'
   },
   {
     name: 'Conic Bottom Right',
-    css: 'bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))]'
+    // css: 'bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))]'
+    css: 'bg-conic-to-br'
   },
   {
     name: 'Conic Bottom',
-    css: 'bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))]'
+    // css: 'bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))]'
+    css: 'bg-conic-to-b'
   },
   {
     name: 'Conic Bottom Left',
-    css: 'bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))]'
+    // css: 'bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))]'
+    css: 'bg-conic-to-bl'
   },
   {
     name: 'Conic Left',
-    css: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]'
+    // css: 'bg-[conic-gradient(at_left,_var(--tw-gradient-stops))]'
+    css: 'bg-conic-to-l'
   },
   {
     name: 'Conic Top Left',
-    css: 'bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))]'
+    // css: 'bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))]'
+    css: 'bg-conic-to-tl'
   }
 ]
 
 export const radialDirections = [
   {
     name: 'Radial Center',
-    css: 'bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))]'
+    // css: 'bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))]'
+    css: 'bg-radial'
   },
   {
     name: 'Radial Top',
-    css: 'bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]'
+    // css: 'bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))]'
+    css: 'bg-radial-at-t'
   },
   {
     name: 'Radial Top Right',
-    css: 'bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))]'
+    // css: 'bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))]'
+    css: 'bg-radial-at-tr'
   },
   {
     name: 'Radial Right',
-    css: 'bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))]'
+    // css: 'bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))]'
+    css: 'bg-radial-at-r'
   },
   {
     name: 'Radial Bottom Right',
-    css: 'bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))]'
+    // css: 'bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))]'
+    css: 'bg-radial-at-br'
   },
   {
     name: 'Radial Bottom',
-    css: 'bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]'
+    // css: 'bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))]'
+    css: 'bg-radial-at-b'
   },
   {
     name: 'Radial Bottom Left',
-    css: 'bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))]'
+    // css: 'bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))]'
+    css: 'bg-radial-at-bl'
   },
   {
     name: 'Radial Left',
-    css: 'bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))]'
+    // css: 'bg-[radial-gradient(ellipse_at_left,_var(--tw-gradient-stops))]'
+    css: 'bg-radial-at-l'
   },
   {
     name: 'Radial Top Left',
-    css: 'bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))]'
+    // css: 'bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))]'
+    css: 'bg-radial-at-tl'
   }
 ]

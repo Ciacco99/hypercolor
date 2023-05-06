@@ -23,5 +23,6 @@ module.exports = {
       }
     }
   },
-  plugins: [require('@tailwindcss/forms')]
+  plugins: [require('@tailwindcss/forms')],
+  presets: [require('tailwind-gradients')]
 }
