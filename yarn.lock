@@ -8499,6 +8499,11 @@ svgo@^1.0.0:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
+tailwind-gradients@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/tailwind-gradients/-/tailwind-gradients-1.0.1.tgz"
+  integrity sha512-r2FXgw2G9kq89gSHJCCw+qS5u2hhiAc/3Sgc4XDZkoMjXX31BiR4XYHOmzuoVwkolcwLH+evltF91r9OJZ+gqA==
+
 tailwindcss@^3.1.8, "tailwindcss@>=3.0.0 || >= 3.0.0-alpha.1":
   version "3.1.8"
   resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.1.8.tgz"
